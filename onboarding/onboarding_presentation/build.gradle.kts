@@ -65,5 +65,6 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
     implementation(project(":core"))
+    implementation(project(":core-ui"))
     implementation(project(":onboarding:onboarding_domain"))
 }
