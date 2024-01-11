@@ -56,4 +56,14 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+
+    implementation(project(":core"))
+    implementation(project(":core-ui"))
+
+    implementation(project(":onboarding:onboarding_presentation"))
+    implementation(project(":onboarding:onboarding_domain"))
+
+    implementation(project(":onboarding:onboarding_presentation"))
+    implementation(project(":tracker:tracker_domain"))
+    implementation(project(":tracker:tracker_data"))
 }
