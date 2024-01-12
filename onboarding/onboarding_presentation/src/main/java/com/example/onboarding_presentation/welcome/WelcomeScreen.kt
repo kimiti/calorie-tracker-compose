@@ -17,14 +17,16 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.core.R
+import com.example.core_ui.LocalSpacing
 
 @Preview(showBackground = true)
 @Composable
 fun WelcomeScreen() {
-
+    val spacing = LocalSpacing.current
     Column(
         modifier = Modifier
-            .fillMaxSize(),
+            .fillMaxSize()
+            .padding(spacing.spaceMedium),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
@@ -33,7 +35,7 @@ fun WelcomeScreen() {
             textAlign = TextAlign.Center,
             style = MaterialTheme.typography.displayLarge
         )
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(spacing.spaceMedium))
     }
 
 }
