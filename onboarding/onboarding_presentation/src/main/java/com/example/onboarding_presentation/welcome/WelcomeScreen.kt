@@ -18,6 +18,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.core.R
 import com.example.core_ui.LocalSpacing
+import com.example.onboarding_presentation.components.ActionButton
 
 @Preview(showBackground = true)
 @Composable
@@ -36,6 +37,11 @@ fun WelcomeScreen() {
             style = MaterialTheme.typography.displayLarge
         )
         Spacer(modifier = Modifier.height(spacing.spaceMedium))
+        ActionButton(
+            text = stringResource(id = R.string.next),
+            onClick = { /*TODO*/ },
+            modifier = Modifier.align(Alignment.CenterHorizontally)
+        )
     }
 
 }
