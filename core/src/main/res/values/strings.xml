@@ -2,4 +2,5 @@
     <string name="app_name">Calorie Tracker Compose</string>
 
     <string name="welcome_text">Hello! Let\'s find out more about you :)</string>
+    <string name="next">Next</string>
 </resources>
