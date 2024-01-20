@@ -10,4 +10,6 @@
     <string name="whats_your_age">What\'s your age?</string>
     <string name="next">Next</string>
     <string name="whats_your_height">What\'s your height?</string>
+    <string name="kg">kg</string>
+    <string name="cm">cm</string>
 </resources>
