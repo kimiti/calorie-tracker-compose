@@ -22,4 +22,7 @@
     <string name="previous_day">Previous day</string>
     <string name="next_day">Next day</string>
     <string name="yesterday">Yesterday</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="nutrient_info">%dg • %dkcal</string>
+    <string name="amount_info">%dg</string>
 </resources>
